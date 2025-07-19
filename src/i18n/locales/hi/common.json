@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "billboard": "बिलबोर्ड",
+    "home": "होम",
+    "create_ad": "विज्ञापन बनाएं",
+    "dashboard": "डैशबोर्ड",
+    "pricing": "मूल्य निर्धारण",
+    "login": "लॉग इन",
+    "logout": "लॉग आउट",
+    "register": "पंजीकरण"
+  },
+  "hero": {
+    "title": "इंटरनेट का टाइम्स स्क्वायर",
+    "subtitle": "दुनिया के सबसे आकर्षक डिजिटल बिलबोर्ड पर अपने विज्ञापन बनाएं, प्रदर्शित करें और मुद्रीकरण करें",
+    "cta_primary": "अपना विज्ञापन बनाएं",
+    "cta_secondary": "लाइव बिलबोर्ड देखें"
+  },
+  "features": {
+    "ai_creation": "AI-संचालित निर्माण",
+    "ai_description": "हमारे AI सहायक के साथ शानदार विज्ञापन बनाएं",
+    "live_billboard": "लाइव बिलबोर्ड",
+    "live_description": "सक्रिय विज्ञापनों का रीयल-टाइम प्रदर्शन",
+    "analytics": "अभियान विश्लेषिकी",
+    "analytics_description": "प्रदर्शन और सहभागिता को ट्रैक करें"
+  },
+  "pricing": {
+    "title": "अपना स्थान चुनें",
+    "premium": "प्रीमियम",
+    "featured": "फीचर्ड",
+    "standard": "मानक",
+    "month": "महीना",
+    "estimated_views": "अनुमानित दृश्य",
+    "priority_placement": "प्राथमिकता स्थान",
+    "enhanced_visibility": "बेहतर दृश्यता",
+    "standard_rotation": "मानक रोटेशन",
+    "select_plan": "योजना चुनें"
+  },
+  "ad_creation": {
+    "title": "अपना विज्ञापन बनाएं",
+    "ai_tab": "AI निर्माण",
+    "manual_tab": "मैन्युअल अपलोड",
+    "describe_ad": "अपने विज्ञापन का वर्णन करें",
+    "placeholder": "उदाहरण: आरामदायक माहौल के साथ एक आधुनिक कॉफी शॉप, सुबह के विशेष ऑफर का प्रचार...",
+    "generate": "विज्ञापन बनाएं",
+    "upload_image": "छवि/वीडियो अपलोड करें",
+    "ad_title": "विज्ञापन शीर्षक",
+    "ad_description": "विवरण",
+    "call_to_action": "कॉल टू एक्शन",
+    "target_url": "लक्ष्य URL",
+    "submit": "विज्ञापन सबमिट करें"
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड",
+    "campaigns": "मेरे अभियान",
+    "ads": "मेरे विज्ञापन",
+    "campaign_name": "अभियान का नाम",
+    "placement": "स्थान",
+    "status": "स्थिति",
+    "impressions": "इंप्रेशन",
+    "clicks": "क्लिक",
+    "spend": "खर्च",
+    "budget": "बजट",
+    "actions": "कार्य",
+    "no_campaigns": "अभी तक कोई अभियान नहीं",
+    "no_ads": "अभी तक कोई विज्ञापन नहीं बनाया गया",
+    "create_first_ad": "शुरू करने के लिए अपना पहला विज्ञापन बनाएं"
+  },
+  "auth": {
+    "sign_in": "लॉग इन",
+    "sign_up": "साइन अप",
+    "username": "उपयोगकर्ता नाम",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "confirm_password": "पासवर्ड की पुष्टि करें",
+    "have_account": "पहले से खाता है?",
+    "need_account": "खाता चाहिए?"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता",
+    "cancel": "रद्द करें",
+    "save": "सेव करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "view": "देखें",
+    "close": "बंद करें",
+    "back": "वापस",
+    "next": "अगला",
+    "previous": "पिछला"
+  },
+  "location": {
+    "detected": "स्थान का पता लगाया गया",
+    "city": "शहर",
+    "country": "देश",
+    "change_language": "भाषा बदलें"
+  }
+}
