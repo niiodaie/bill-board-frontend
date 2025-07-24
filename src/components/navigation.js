@@ -1,0 +1,19 @@
+import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
+import { Link, useLocation } from "wouter";
+import { Button } from "@/components/ui/button";
+import { useAuth, useLogout } from "@/lib/auth";
+import { useLocation as useLocationContext } from "@/context/LocationContext";
+import { LanguageSwitcher } from "@/components/language-switcher";
+import { MapPin } from "lucide-react";
+import { useTranslation } from "react-i18next";
+export function Navigation() {
+    const [location] = useLocation();
+    const { data: auth, isLoading } = useAuth();
+    const { location: userLocation } = useLocationContext();
+    const { t } = useTranslation();
+    const logout = useLogout();
+    const handleLogout = () => {
+        logout.mutate();
+    };
+    return (_jsx("header", { className: "bg-dark-bg border-b border-gray-800 sticky top-0 z-50 glass-effect", children: _jsx("div", { className: "container mx-auto px-4 py-4", children: _jsxs("nav", { className: "flex items-center justify-between", children: [_jsxs("div", { className: "flex items-center space-x-4", children: [_jsx(Link, { href: "/", children: _jsx("h1", { className: "text-3xl font-orbitron font-bold text-neon-pink neon-text cursor-pointer", children: "Billboard" }) }), _jsx("span", { className: "text-sm bg-neon-gold text-black px-2 py-1 rounded font-medium", children: "BETA" })] }), _jsxs("div", { className: "hidden md:flex items-center space-x-8", children: [_jsx("a", { href: "/#billboard", className: "hover:text-neon-cyan transition-colors", children: t('nav.billboard') }), _jsx(Link, { href: "/surprises", children: _jsx("span", { className: "hover:text-neon-cyan transition-colors cursor-pointer", children: t('nav.surprises') }) }), _jsx(Link, { href: "/deals", children: _jsx("span", { className: "hover:text-neon-cyan transition-colors cursor-pointer", children: t('nav.deals') }) }), _jsx(Link, { href: "/today", children: _jsx("span", { className: "hover:text-neon-cyan transition-colors cursor-pointer", children: t('nav.today') }) }), auth?.user && (_jsxs(_Fragment, { children: [_jsx(Link, { href: "/booking", children: _jsx("span", { className: "hover:text-neon-cyan transition-colors cursor-pointer", children: t('nav.booking') }) }), _jsx(Link, { href: "/create-ad", children: _jsx("span", { className: "hover:text-neon-cyan transition-colors cursor-pointer", children: t('nav.create_ad') }) }), _jsx(Link, { href: "/dashboard", children: _jsx("span", { className: "hover:text-neon-cyan transition-colors cursor-pointer", children: t('nav.dashboard') }) })] })), _jsx("a", { href: "/#pricing", className: "hover:text-neon-cyan transition-colors", children: t('nav.pricing') })] }), _jsxs("div", { className: "flex items-center space-x-4", children: [userLocation.city && userLocation.country && (_jsxs("div", { className: "flex items-center space-x-1 text-sm text-gray-400", children: [_jsx(MapPin, { className: "w-3 h-3" }), _jsxs("span", { children: [userLocation.city, ", ", userLocation.country] })] })), _jsx(LanguageSwitcher, {}), isLoading ? (_jsx("div", { className: "w-6 h-6 border-2 border-neon-cyan border-t-transparent rounded-full animate-spin" })) : auth?.user ? (_jsxs(_Fragment, { children: [_jsxs("span", { className: "text-sm text-gray-300", children: ["Welcome, ", auth.user.username] }), _jsx(Button, { onClick: handleLogout, variant: "outline", className: "border-neon-pink text-neon-pink hover:bg-neon-pink hover:text-white", children: t('nav.logout') })] })) : (_jsxs(_Fragment, { children: [_jsx(Link, { href: "/auth", children: _jsx(Button, { className: "bg-neon-pink hover:bg-pink-600 animate-pulse-glow", children: t('nav.login') }) }), _jsx(Link, { href: "/auth", children: _jsx(Button, { variant: "outline", className: "border-neon-cyan text-neon-cyan hover:bg-neon-cyan hover:text-black", children: t('nav.register') }) })] }))] })] }) }) }));
+}
