@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "billboard": "ビルボード",
+    "home": "ホーム",
+    "create_ad": "広告作成",
+    "dashboard": "ダッシュボード",
+    "pricing": "価格",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "register": "登録"
+  },
+  "hero": {
+    "title": "インターネットのタイムズスクエア",
+    "subtitle": "世界で最も魅力的なデジタルビルボードで広告を作成、表示、収益化しましょう",
+    "cta_primary": "広告を作成",
+    "cta_secondary": "ライブビルボードを見る"
+  },
+  "features": {
+    "ai_creation": "AI駆動作成",
+    "ai_description": "AIアシスタントで素晴らしい広告を生成",
+    "live_billboard": "ライブビルボード",
+    "live_description": "アクティブな広告のリアルタイム表示",
+    "analytics": "キャンペーン分析",
+    "analytics_description": "パフォーマンスとエンゲージメントを追跡"
+  },
+  "pricing": {
+    "title": "配置を選択",
+    "premium": "プレミアム",
+    "featured": "特集",
+    "standard": "スタンダード",
+    "month": "月",
+    "estimated_views": "推定ビュー数",
+    "priority_placement": "優先配置",
+    "enhanced_visibility": "視認性向上",
+    "standard_rotation": "標準ローテーション",
+    "select_plan": "プランを選択"
+  },
+  "ad_creation": {
+    "title": "広告を作成",
+    "ai_tab": "AI作成",
+    "manual_tab": "手動アップロード",
+    "describe_ad": "広告を説明してください",
+    "placeholder": "例：居心地の良い雰囲気のモダンなコーヒーショップ、朝のスペシャルを宣伝...",
+    "generate": "広告を生成",
+    "upload_image": "画像/動画をアップロード",
+    "ad_title": "広告タイトル",
+    "ad_description": "説明",
+    "call_to_action": "コールトゥアクション",
+    "target_url": "ターゲットURL",
+    "submit": "広告を送信"
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "campaigns": "マイキャンペーン",
+    "ads": "マイ広告",
+    "campaign_name": "キャンペーン名",
+    "placement": "配置",
+    "status": "ステータス",
+    "impressions": "インプレッション",
+    "clicks": "クリック",
+    "spend": "支出",
+    "budget": "予算",
+    "actions": "アクション",
+    "no_campaigns": "キャンペーンがありません",
+    "no_ads": "作成された広告がありません",
+    "create_first_ad": "最初の広告を作成して開始"
+  },
+  "auth": {
+    "sign_in": "ログイン",
+    "sign_up": "登録",
+    "username": "ユーザー名",
+    "email": "メール",
+    "password": "パスワード",
+    "confirm_password": "パスワード確認",
+    "have_account": "すでにアカウントをお持ちですか？",
+    "need_account": "アカウントが必要ですか？"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "view": "表示",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ"
+  },
+  "location": {
+    "detected": "位置が検出されました",
+    "city": "都市",
+    "country": "国",
+    "change_language": "言語を変更"
+  }
+}
