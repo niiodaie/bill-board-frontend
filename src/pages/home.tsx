@@ -3,6 +3,7 @@ import { Billboard } from "@/components/billboard";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
+import PremiumTicker from "@/components/PremiumTicker";
 
 export default function Home() {
   return (
