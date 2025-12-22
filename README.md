@@ -11,7 +11,7 @@ This directory contains the frontend application for the Billboard platform, bui
 2. Start the development server:
    ```bash
    npm run dev
-   ```
+   ``
 
 ## Deployment
 
