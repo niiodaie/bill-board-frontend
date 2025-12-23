@@ -59,8 +59,13 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Premium Ticker */}
+      <div className="relative w-full">
+        <PremiumTicker />
+      </div>
+
       {/* Live Billboard Display */}
-      <section id="billboard" className="py-20 bg-dark-bg">
+      <section id="billboard" className="py-20 bg-dark-bg relative">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-orbitron font-bold mb-4 text-neon-gold neon-text">LIVE BILLBOARD</h2>
